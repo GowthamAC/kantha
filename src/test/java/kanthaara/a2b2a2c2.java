@@ -15,8 +15,9 @@ public class a2b2a2c2 {
 					} else {
 						break;
 	}
-	}	
-	System.out.print(ch[i] + " " + count);
+	}
+	if(count>1)
+	System.out.println(ch[i] + " : " + count);
 	}
 	}
 	}
